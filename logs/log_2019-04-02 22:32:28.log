@@ -1,0 +1,54 @@
+[2019-04-02 22:32:28] Starting ...
+[2019-04-02 22:32:28] Parameters:
+[2019-04-02 22:32:28] /useexistingxml   - use the xml files in the data directory (use this for old versions)
+[2019-04-02 22:32:28] /rebuildschema    - create or replace all tables and functions
+[2019-04-02 22:32:28] /onlytab          - don't import data into database only create tab seperated files
+[2019-04-02 22:32:28] /forceupdate      - import database even when database is already up to date. /onlyTab must be off
+[2019-04-02 22:32:28] 
+[2019-04-02 22:32:28] Using (xml) data stored in './Data'.
+[2019-04-02 22:32:28] 
+[2019-04-02 22:32:29] Local Discogs is up to date!
+[2019-04-02 22:32:29] 
+[2019-04-02 22:32:29] Connected to Postgres.
+[2019-04-02 22:32:29] Create or replace base tables.
+[2019-04-02 22:32:29] Create or replace schema.
+[2019-04-02 22:32:29] Exporting ARTISTS.XML data to TAB files.
+[2019-04-02 22:36:03] Using existing artist TAB files
+[2019-04-02 22:36:03] Importing ARTISTS TAB files into Postgres.
+[2019-04-02 22:36:03] Inserting ./Data/Artist.TAB ...
+[2019-04-02 22:36:17] Inserting ./Data/ArtistAlias.TAB ...
+[2019-04-02 22:36:20] Inserting ./Data/xgroup.TAB ...
+[2019-04-02 22:36:21] Inserting ./Data/xmember.TAB ...
+[2019-04-02 22:36:21] Inserting ./Data/ArtistNameVariation.TAB ...
+[2019-04-02 22:36:26] Inserting ./Data/ArtistURL.TAB ...
+[2019-04-02 22:36:38] ARTIST Done
+[2019-04-02 22:36:38] 6138995 entities processed
+[2019-04-02 22:36:38] 1960449 records inserted
+[2019-04-02 22:36:38] Elapsed index time 0:04:08
+[2019-04-02 22:36:38] 
+[2019-04-02 22:36:38] Exporting RELEASES.XML data to TAB files.
+[2019-04-03 00:14:12] Using existing release TAB files
+[2019-04-03 00:14:12] Importing RELEASES TAB files into Postgres.
+[2019-04-03 00:14:12] Inserting ./Data/MasterRelease.TAB ...
+[2019-04-03 00:14:41] Inserting ./Data/ReleaseTrack.TAB ...
+[2019-04-03 00:25:33] Inserting ./Data/ReleaseTrackArtist.TAB ...
+[2019-04-03 01:16:41] RELEASE Done
+[2019-04-03 01:16:41] 10893841 entities processed
+[2019-04-03 01:16:41] 10893837 records inserted
+[2019-04-03 01:16:41] Elapsed index time 2:44:11
+[2019-04-03 01:16:41] 
+[2019-04-03 01:16:41] Exporting MASTERS.XML data to TAB files.
+[2019-04-03 01:19:16] Using existing release TAB files
+[2019-04-03 01:19:16] Importing MASTERS TAB files into Postgres.
+[2019-04-03 01:19:16] Inserting ./Data/Master.TAB ...
+[2019-04-03 01:19:27] Inserting ./Data/MasterArtist.TAB ...
+[2019-04-03 01:19:43] Inserting ./Data/MasterGenre.TAB ...
+[2019-04-03 01:19:53] Inserting ./Data/MasterStyle.TAB ...
+[2019-04-03 01:20:02] Inserting ./Data/MasterVideo.TAB ...
+[2019-04-03 01:28:23] MASTERS Done
+[2019-04-03 01:28:23] 1475843 entities processed
+[2019-04-03 01:28:23] 1376042 records inserted
+[2019-04-03 01:28:23] Elapsed index time 2:55:54
+[2019-04-03 01:28:23] 
+[2019-04-03 01:28:23] Total Elapsed index time 2:55:54
+[2019-04-03 01:28:24] Done

@@ -1,0 +1,29 @@
+[2019-04-02 09:30:50] Starting ...
+[2019-04-02 09:30:50] Parameters:
+[2019-04-02 09:30:50] /useexistingxml   - use the xml files in the data directory (use this for old versions)
+[2019-04-02 09:30:50] /rebuildschema    - create or replace all tables and functions
+[2019-04-02 09:30:50] /onlytab          - don't import data into database only create tab seperated files
+[2019-04-02 09:30:50] /forceupdate      - import database even when database is already up to date. /onlyTab must be off
+[2019-04-02 09:30:50] 
+[2019-04-02 09:30:50] Using (xml) data stored in './Data'.
+[2019-04-02 09:30:50] 
+[2019-04-02 09:30:51] Local Discogs is up to date!
+[2019-04-02 09:30:51] 
+[2019-04-02 09:30:51] Connected to Postgres.
+[2019-04-02 09:30:51] Create or replace base tables.
+[2019-04-02 09:30:51] Create or replace schema.
+[2019-04-02 09:30:51] Exporting ARTISTS.XML data to TAB files.
+[2019-04-02 09:34:44] Using existing artist TAB files
+[2019-04-02 09:34:44] Importing ARTISTS TAB files into Postgres.
+[2019-04-02 09:34:44] Inserting ./Data/Artist.TAB ...
+[2019-04-02 09:34:59] Inserting ./Data/ArtistAlias.TAB ...
+[2019-04-02 09:35:02] Inserting ./Data/xgroup.TAB ...
+[2019-04-02 09:35:03] Inserting ./Data/xmember.TAB ...
+[2019-04-02 09:35:04] Inserting ./Data/ArtistNameVariation.TAB ...
+[2019-04-02 09:35:08] Inserting ./Data/ArtistURL.TAB ...
+[2019-04-02 09:35:21] ARTIST Done
+[2019-04-02 09:35:21] 6138995 entities processed
+[2019-04-02 09:35:21] 1960449 records inserted
+[2019-04-02 09:35:21] Elapsed index time 0:04:29
+[2019-04-02 09:35:21] 
+[2019-04-02 09:35:21] Exporting RELEASES.XML data to TAB files.

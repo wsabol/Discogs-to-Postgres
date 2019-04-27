@@ -1,0 +1,12 @@
+[2019-04-02 09:29:58] Starting ...
+[2019-04-02 09:29:58] Parameters:
+[2019-04-02 09:29:58] /useexistingxml   - use the xml files in the data directory (use this for old versions)
+[2019-04-02 09:29:58] /rebuildschema    - create or replace all tables and functions
+[2019-04-02 09:29:58] /onlytab          - don't import data into database only create tab seperated files
+[2019-04-02 09:29:58] /forceupdate      - import database even when database is already up to date. /onlyTab must be off
+[2019-04-02 09:29:58] 
+[2019-04-02 09:29:58] Using (xml) data stored in './Data'.
+[2019-04-02 09:29:58] 
+[2019-04-02 09:29:59] Local Discogs is up to date!
+[2019-04-02 09:29:59] 
+[2019-04-02 09:29:59] Connected to Postgres.
